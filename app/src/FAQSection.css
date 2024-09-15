@@ -1,0 +1,103 @@
+.faq-section {
+    padding: 80px 20px;
+    background-color: rgba(249, 250, 251, 1);
+  }
+  
+  /* FAQ Introduction */
+  .faq-intro {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .faq-intro h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-intro p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* FAQ List Container */
+  .faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .faq-question h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #8c60eb;
+  }
+  
+  .faq-answer {
+    padding: 15px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  /* Contact Section */
+  .faq-contact {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .faq-contact img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-contact h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .get-in-touch-button {
+    padding: 12px 20px;
+    background-color: rgba(127, 86, 217, 1);
+    color: white;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .get-in-touch-button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .faq-list {
+      padding: 0 20px;
+    }
+  }
+  
