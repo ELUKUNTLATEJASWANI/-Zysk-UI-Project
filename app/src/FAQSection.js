@@ -41,7 +41,7 @@ const FAQSection = () => {
 
       {/* Third Container: Still have questions */}
       <div className="faq-contact">
-        <img  src={require('./Avatar group.png')}  alt="Still have questions?" className="faq-image" />
+        <img  src={require('./assets/images/Avatar group.png')}  alt="Still have questions?" className="faq-image" />
         <h3>Still have questions?</h3>
         <p>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
         <button className="get-in-touch-button">Get in touch</button>

@@ -14,15 +14,15 @@ const FeaturesSection = () => {
 
       <div className="images-container">
         <div className="desktop-image-container">
-          <img src={require('./Desktop.png')} alt="Desktop" className="desktop-image" />
-          <img src={require('./Phone.png')} alt="Phone" className="phone-image" />
+          <img src={require('./assets/images/Desktop.png')} alt="Desktop" className="desktop-image" />
+          <img src={require('./assets/images/Phone.png')} alt="Phone" className="phone-image" />
         </div>
       </div>
 
     
       <div className="features-grid">
         <div className="feature-item">
-          <img src={require('./Featured icon.png')} alt="Feature 1" className="feature-icon" />
+          <img src={require('./assets/images/Featured icon.png')} alt="Feature 1" className="feature-icon" />
           <h3 className="feature-title">Share team inboxes</h3>
           <p className="feature-description">
             Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.
@@ -31,7 +31,7 @@ const FeaturesSection = () => {
         </div>
 
         <div className="feature-item">
-          <img src={require('./Featured icon (1).png')} alt="Feature 2" className="feature-icon" />
+          <img src={require('./assets/images/Featured icon (1).png')} alt="Feature 2" className="feature-icon" />
           <h3 className="feature-title">Deliver instant answers</h3>
           <p className="feature-description">
             An all-in-one customer service platform that helps you balance everything your customers need to be happy.
@@ -40,7 +40,7 @@ const FeaturesSection = () => {
         </div>
 
         <div className="feature-item">
-          <img src={require('./Featured icon (2).png')} alt="Feature 3" className="feature-icon" />
+          <img src={require('./assets/images/Featured icon (2).png')} alt="Feature 3" className="feature-icon" />
           <h3 className="feature-title">Manage your team with reports</h3>
           <p className="feature-description">
             Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drill down on the data in a couple of clicks.

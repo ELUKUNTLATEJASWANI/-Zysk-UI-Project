@@ -15,12 +15,12 @@ const BlogSection = () => {
 
       <div className="blog-grid">
         <div className="blog-post">
-          <img src={require('./Design.png')} alt="Design" className="blog-image" />
+          <img src={require('./assets/images/Design.png')} alt="Design" className="blog-image" />
           <p className='blog-post-p'>Design</p>
           <h4>UX review presentations</h4>
           <p className='blog-p'>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
           <div className="author-info">
-            <img src={require('./logo1.png')} alt="Olivia Rhye" className="author-logo" />
+            <img src={require('./assets/images/logo1.png')} alt="Olivia Rhye" className="author-logo" />
             <div className="author-details">
               <p>Olivia Rhye</p>
               <span>20 Jan 2024</span>
@@ -29,12 +29,12 @@ const BlogSection = () => {
         </div>
 
         <div className="blog-post">
-          <img src={require('./Products.png')} alt="Product" className="blog-image" />
+          <img src={require('./assets/images/Products.png')} alt="Product" className="blog-image" />
           <p className='blog-post-p'>Product</p>
           <h4>Migrating to Linear 101</h4>
           <p className='blog-p'>Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.</p>
           <div className="author-info">
-            <img src={require('./logo2.png')} alt="Phoenix Baker" className="author-logo" />
+            <img src={require('./assets/images/logo2.png')} alt="Phoenix Baker" className="author-logo" />
             <div className="author-details">
               <p>Phoenix Baker</p>
               <span>19 Jan 2024</span>
@@ -43,12 +43,12 @@ const BlogSection = () => {
         </div>
 
         <div className="blog-post">
-          <img src={require('./SE.png')} alt="Software Engineering" className="blog-image" />
+          <img src={require('./assets/images/SE.png')} alt="Software Engineering" className="blog-image" />
           <p className='blog-post-p'>Software Engineering</p>
           <h4>Building your API stack</h4>
           <p className='blog-p'>The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.</p>
           <div className="author-info">
-            <img src={require('./logo3.png')} alt="Lana Steiner" className="author-logo" />
+            <img src={require('./assets/images/logo3.png')} alt="Lana Steiner" className="author-logo" />
             <div className="author-details">
               <p>Lana Steiner</p>
               <span>18 Jan 2024</span>

@@ -1,5 +1,4 @@
-/* Reset defaults */
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -12,7 +11,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Center the feature section in the middle of the screen */
+
 .feature-section {
   text-align: center;
   padding: 50px 20px;
@@ -60,7 +59,7 @@ body {
   line-height: 1.5;
 }
 
-/* Button Group Styling */
+
 .button-group {
   display: flex;
   justify-content: center;
@@ -68,7 +67,7 @@ body {
   flex-wrap: wrap; /* Wrap buttons for smaller screens */
 }
 
-/* Demo Button Styling */
+
 .demo-btn {
   background-color: transparent;
   color: #8c60eb;
@@ -194,13 +193,14 @@ body {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  text-align: center;
+  align-items: center;
 }
 
 .feature-icon {
   width: 50px;
   margin-bottom: 15px;
-}
+  align-items: center;
+} 
 
 .feature-title {
   font-size: 18px;

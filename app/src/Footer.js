@@ -76,7 +76,7 @@ const Footer = () => {
 
       <div className="footer-container-2">
         <div className="footer-logo">
-          <img src={require('./Logo.png')} alt="Logo" />
+          <img src={require('./assets/images/Logo.png')} alt="Logo" />
         </div>
         <div className="footer-right">
           <p>© 2077 Untitled UI. All rights reserved.</p>
