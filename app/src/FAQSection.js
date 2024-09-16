@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './FAQSection.css';
-import { FaPlusCircle, FaMinusCircle } from 'react-icons/fa'; // Icons for plus and minus
+import { FaPlusCircle, FaMinusCircle } from 'react-icons/fa'; 
 
 const FAQSection = () => {
-  const [openFAQ, setOpenFAQ] = useState(null); // Track open FAQ index
+  const [openFAQ, setOpenFAQ] = useState(null); 
 
   const toggleFAQ = (index) => {
-    setOpenFAQ(openFAQ === index ? null : index); // Toggle between open and close
+    setOpenFAQ(openFAQ === index ? null : index); 
   };
 
   const faqs = [
@@ -20,13 +20,13 @@ const FAQSection = () => {
 
   return (
     <section className="faq-section">
-      {/* First Container: FAQ Introduction */}
+     
       <div className="faq-intro">
         <h2>Frequently asked questions</h2>
         <p>Everything you need to know about the product and billing.</p>
       </div>
 
-      {/* Second Container: FAQ List */}
+    
       <div className="faq-list">
         {faqs.map((faq, index) => (
           <div className="faq-item" key={index}>
@@ -39,7 +39,7 @@ const FAQSection = () => {
         ))}
       </div>
 
-      {/* Third Container: Still have questions */}
+
       <div className="faq-contact">
         <img  src={require('./assets/images/Avatar group.png')}  alt="Still have questions?" className="faq-image" />
         <h3>Still have questions?</h3>

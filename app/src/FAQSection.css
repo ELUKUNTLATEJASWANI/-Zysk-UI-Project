@@ -58,7 +58,7 @@
     font-size: 16px;
   }
   
-  /* Contact Section */
+ 
   .faq-contact {
     text-align: center;
     margin-top: 60px;
@@ -94,7 +94,7 @@
     opacity: 0.9;
   }
   
-  /* Responsive Design */
+  
   @media (max-width: 768px) {
     .faq-list {
       padding: 0 20px;
